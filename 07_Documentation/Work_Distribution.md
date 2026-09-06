@@ -30,8 +30,8 @@ The final outcome will bring these areas together into one shared dashboard and 
 | Member    | Module                   | Primary Responsibility                           |
 |-----------|--------------------------|--------------------------------------------------|
 | Chetana   | Adaptive Color           | Color adaptation and visual clarity              |
-| Member 2  | Adaptive Typography      | Readability and typography adaptation            |
-| Member 3  | Adaptive Interaction     | Interaction and target-size adaptation           |
+| Garima    | Adaptive Typography      | Readability and typography adaptation            |
+| Harsh     | Adaptive Interaction     | Interaction and target-size adaptation           |
 | Vaibhavi  | Cognitive Accessibility  | Cognitive load, visual noise and simplified UI   |
 
 Each member owns one primary module.
@@ -106,7 +106,7 @@ Member 1 will contribute the relevant color decisions, variables/tokens, UI stat
 
 ### Owner
 
-**Member:** Member 2
+**Member:** Garima
 
 ### Objective
 
@@ -153,7 +153,7 @@ Member 2 will contribute typography rules, variables, text styles, UI states and
 
 ### Owner
 
-**Member:** Member 3
+**Member:** Harsh
 
 ### Objective
 
@@ -378,7 +378,7 @@ The final project should represent **one Chameleon system**, rather than four un
 
 ## 13. Ownership Summary
 
-| Area                     | Chetana   | Member 2  | Member 3  | Vaibhavi  |
+| Area                     | Chetana   | Garima    | Harsh     | Vaibhavi  |
 |--------------------------|:---------:|:---------:|:---------:|:---------:|
 | Adaptive Color           | **Owner** | Support   | Support   | Support   |
 | Adaptive Typography      | Support   | **Owner** | Support   | Support   |
