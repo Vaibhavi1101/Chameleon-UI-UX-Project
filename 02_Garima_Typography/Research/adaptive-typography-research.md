@@ -8,7 +8,6 @@ Typography is an important part of an accessible user interface because the way 
 
 For the **Chameleon — Algorithmic Accessibility Engine** project, Adaptive Typography is being researched as a way to create a flexible and accessible typography system.
 
----
 
 ## 2. What is Adaptive Typography?
 
@@ -28,7 +27,6 @@ The main properties that can be adapted are:
 
 These properties can be adjusted individually or in combination depending on the requirements of the interface.
 
----
 
 ## 3. Accessibility and Readability
 
@@ -53,7 +51,6 @@ WCAG includes requirements related to adaptable text presentation.
 
 These requirements demonstrate the importance of designing interfaces that can accommodate changes in text size and spacing.
 
----
 
 ## 4. Variable Typography
 
@@ -72,9 +69,8 @@ This makes variable fonts useful for flexible typography systems.
 | `opsz` | Optical Size | Allows the typeface to be optimized for different text sizes |
 | `slnt` | Slant        | Controls the slant of the typeface                           |
 
-**Note:** Not every variable font supports all of these axes. The available axes depend on the particular typeface.
+Not every variable font supports all of these axes. The available axes depend on the particular typeface.
 
----
 
 ## 5. Why Variable Fonts are Useful
 
@@ -88,7 +84,6 @@ They can allow a typography system to:
 * Reduce the need for multiple separate font files.
 * Provide more control when creating responsive or adaptive typography.
 
----
 
 ## 6. Key Typography Parameters
 
@@ -106,7 +101,6 @@ The following parameters are important when designing an adaptive typography sys
 
 These parameters should be considered together rather than changing only one property in isolation.
 
----
 
 ## 7. Relevance to Chameleon
 
@@ -118,7 +112,6 @@ Variable font technology is particularly relevant because properties such as **w
 
 This research will provide the foundation for defining typography rules and building the typography system in the next stages of the project.
 
----
 
 ## 8. Key Findings
 
