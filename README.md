@@ -78,8 +78,8 @@ This project primarily demonstrates design concepts and prototype behavior. Cont
 
 ## Project Links
 
-- **Figma:** [Add shared Figma link]
-- **GitHub:** [Add repository link]
+- **Figma:** https://www.figma.com/design/FyAIw0l6umhDoR8SIL463U/VeriSight?node-id=0-1&t=rmhaPt7j5U9Z793z-1
+- **GitHub:** https://github.com/Vaibhavi1101/Chameleon-UI-UX-Project
 
 ## Future Work
 
