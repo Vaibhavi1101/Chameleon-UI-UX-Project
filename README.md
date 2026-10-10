@@ -1,421 +1,93 @@
-# Chameleon UI/UX Project — Work Distribution
+# Chameleon — Adaptive Accessibility Design System
 
-## 1. Project Overview
+Chameleon explores how a familiar dashboard interface can adapt to different user contexts while keeping its core layout, visual language, and essential information consistent.
 
-**Project Name:** Chameleon: Algorithmic Accessibility Engine
+The project uses a shared analytics dashboard as its baseline and demonstrates adaptive states through UI screens, wireframes, documentation, and Figma prototypes.
 
-**Domain:** Inclusive Design & Design Systems
+## Project Goals
 
-**Team Size:** 4 Members
+- Explore context-aware accessibility adaptations.
+- Keep a consistent dashboard structure across modules.
+- Improve readability, focus, and interaction accessibility without unnecessarily changing the whole interface.
+- Distinguish simulated prototype behavior from implemented functionality.
 
-### Project Goal
+## Modules and Contributions
 
-Chameleon explores an adaptive accessibility system where a dashboard interface can adapt to different user needs and contextual conditions.
+| Team member | Modules | Focus |
+|---|---|---|
+| **Vaibhavi Parmar** | Cognitive Accessibility; Sensor-Driven Interaction | Cognitive-friendly dashboard states, information hierarchy, and the adaptive hit-target interaction concept. |
+| **Garima Saxena** | Adaptive Typography; Adaptive Color | Typography adaptation based on viewing context and adaptive color concepts. |
 
-The project focuses on four main areas:
+## Module Overview
 
-- Adaptive Color
-- Adaptive Typography
-- Adaptive Interaction
-- Cognitive Accessibility
+### 1. Cognitive Accessibility
 
-The final outcome will bring these areas together into one shared dashboard and demonstrate how the interface can adapt through different UI states.
+Explores how a dashboard can reduce unnecessary visual complexity and make important information easier to identify when higher cognitive load is simulated.
 
-> Where real sensors, algorithms, or system-level behavior cannot be implemented, the concept will be demonstrated through Figma-based states and interactions rather than claiming a fully implemented system.
+Design examples include:
+- A Focus Mode indicator.
+- Stronger hierarchy for key KPI values.
+- Removal of redundant KPI sparklines.
+- Clearer separation in the sales chart.
+- Quieter secondary details while retaining important information.
 
----
+**Prototype limitation:** Cognitive-load detection is simulated in Figma. Real cognitive-load or biometric detection is not implemented.
 
-## 2. Team Structure
+### 2. Sensor-Driven Interaction
 
-| Member    | Module                   | Primary Responsibility                           |
-|-----------|--------------------------|--------------------------------------------------|
-| Chetana   | Adaptive Color           | Color adaptation and visual clarity              |
-| Garima    | Adaptive Typography      | Readability and typography adaptation            |
-| Harsh     | Adaptive Interaction     | Interaction and target-size adaptation           |
-| Vaibhavi  | Cognitive Accessibility  | Cognitive load, visual noise and simplified UI   |
+Explores expanding selected invisible hit areas when unsteady cursor movement is detected, while keeping the visible controls and dashboard layout familiar.
 
-Each member owns one primary module.
+The prototype demonstrates:
+- A normal dashboard state.
+- An interaction-adjustment notification.
+- An adaptive interaction dashboard.
+- Annotated target boundaries around selected controls, such as Overview and the date-range selector.
 
-However, module ownership does not mean working completely separately. All members will also contribute to the shared dashboard, design system, prototype, documentation, and final integration.
+**Prototype limitation:** Detection and adaptive behavior are simulated in Figma. Real-time cursor sensing and dynamic hit-area expansion are not implemented as working software.
 
----
+### 3. Adaptive Typography
 
-## 3. Individual Work Distribution
+Explores adapting typographic presentation in response to a simulated viewing-distance condition while preserving the dashboard's core structure.
 
-Each member is responsible for developing their assigned module from initial exploration through to its integration into the final dashboard.
+**Prototype limitation:** Viewing-distance detection is represented as a Figma prototype scenario; real sensor detection is not claimed.
 
-The general module workflow is:
+### 4. Adaptive Color
 
-**Research → Problem / Need → Design Rules → Wireframes → UI Design → Adaptive State → Documentation → Integration**
+Explores adaptive color concepts as part of the wider Chameleon design system. Refer to the shared Figma file and module documentation for the final screens and design details.
 
-Each member should maintain clear evidence of their work throughout these stages.
+## Shared Design Approach
 
----
+The common dashboard includes:
+- Navigation sidebar and header
+- Overview and date-range control
+- KPI cards
+- Sales-performance chart
+- Recent activity
+- Recent-transactions table
 
-## 4. Module 1 — Adaptive Color
+The shared baseline helps keep modules visually consistent while allowing each one to demonstrate a different adaptive response.
 
-### Owner
+## Tools
 
-**Member:** Chetana
+- **Figma** — UI design, wireframes, adaptive states, annotations, and prototype flows.
+- **GitHub** — project files and supporting documentation.
 
-### Objective
+## Scope and Limitations
 
-Explore how dashboard colors can adapt to environmental conditions and improve visual clarity.
+This project primarily demonstrates design concepts and prototype behavior. Context detection and adaptive responses described above are simulated in Figma rather than implemented as real-time software functionality.
 
-### Main Question
+## Project Links
 
-> How can dashboard colors change to remain easier to see in different environmental conditions?
+- **Figma:** [Add shared Figma link]
+- **GitHub:** [Add repository link]
 
-### Main Areas
+## Future Work
 
-#### Color Adaptation
-
-Explore:
-
-- Background colors
-- Surface colors
-- Text colors
-- Border colors
-- Status colors
-- Chart/data colors
-- Adaptive color tokens
-
-#### Accessibility
-
-Explore:
-
-- Contrast
-- Visual clarity
-- Light and dark conditions
-- Important information visibility
-
-#### Design Output
-
-The module should demonstrate:
-
-- Normal color state
-- Adaptive / low-light color state
-
-### Expected Contribution
-
-Member 1 will contribute the relevant color decisions, variables/tokens, UI states and accessibility rules to the shared design system and dashboard.
+- Validate adaptive states with users.
+- Test readability, target selection, and transitions.
+- Implement and evaluate actual context-sensing mechanisms.
+- Consolidate design tokens, state behavior, and handoff documentation.
 
 ---
 
-## 5. Module 2 — Adaptive Typography
-
-### Owner
-
-**Member:** Garima
-
-### Objective
-
-Explore how typography can adapt to improve readability and make dashboard information easier to understand.
-
-### Main Question
-
-> How can typography adapt to make information easier to read?
-
-### Main Areas
-
-#### Typography
-
-Explore:
-
-- Text size
-- Font weight
-- Line spacing
-- Letter spacing
-- Headings
-- Body text
-- Labels
-- Tables
-- Numerical information
-
-#### Readability
-
-Explore how different typography settings can make important information easier to read.
-
-#### Design Output
-
-The module should demonstrate:
-
-- Normal readability state
-- Enhanced readability state
-
-### Expected Contribution
-
-Member 2 will contribute typography rules, variables, text styles, UI states and relevant accessibility decisions to the shared design system and dashboard.
-
----
-
-## 6. Module 3 — Adaptive Interaction
-
-### Owner
-
-**Member:** Harsh
-
-### Objective
-
-Explore how dashboard interactions can adapt when users have difficulty with precise cursor movement or clicking.
-
-### Main Question
-
-> How can the interface become easier to interact with when precise clicking is difficult?
-
-### Main Areas
-
-#### Interaction
-
-Explore:
-
-- Buttons
-- Controls
-- Hit areas
-- Control spacing
-- Important interaction targets
-- Hover states
-- Focus states
-- Feedback states
-
-#### Adaptive Interaction
-
-Explore how interaction areas can become easier to use without changing the overall purpose of the interface.
-
-#### Design Output
-
-The module should demonstrate:
-
-- Normal interaction state
-- Assisted interaction state
-
-### Expected Contribution
-
-Member 3 will contribute interaction components, states and relevant accessibility rules to the shared design system and dashboard.
-
----
-
-## 7. Module 4 — Cognitive Accessibility
-
-### Owner
-
-**Member:** Vaibhavi
-
-### Objective
-
-Explore how the dashboard can become easier to understand and less overwhelming.
-
-### Main Question
-
-> How can the dashboard become simpler, clearer and less overwhelming for the user?
-
-### Main Areas
-
-#### Reduce Visual Noise
-
-Explore:
-
-- Removing unnecessary visual elements
-- Reducing distracting background elements
-- Simplifying complex sections
-- Keeping important information visually prominent
-
-#### Reduce Unnecessary Motion
-
-Explore how unnecessary animation or movement can be reduced when it may distract the user.
-
-#### Simplify Information
-
-Explore:
-
-- Clear grouping
-- Easier scanning
-- Simpler presentation of information
-- Better information hierarchy
-
-#### Improve Visual Hierarchy
-
-Focus on making it clear:
-
-- What is important
-- What the user should notice first
-- What the user can interact with
-- What information can be secondary
-
-#### Design Output
-
-The module should demonstrate:
-
-- Normal dashboard state
-- Reduced-noise / cognitive-friendly state
-
-### Expected Contribution
-
-Member 4 will contribute cognitive accessibility rules, relevant components, UI states and design decisions to the shared design system and dashboard.
-
----
-
-## 8. Shared Work
-
-Although each member owns one module, the following work will be shared across the entire team.
-
-### Shared Design System
-
-The team will maintain a common design system containing:
-
-- Colors
-- Typography
-- Components
-- Spacing
-- UI states
-- Accessibility rules
-- Adaptive variables/tokens where applicable
-
-Location: `05-Shared-Design-System/`
-
-The shared design system contains:
-
-- `Colors/`
-- `Typography/`
-- `Components/`
-- `Accessibility-Rules/`
-
-Each member will contribute to the parts of the design system related to their module.
-
----
-
-## 9. Shared Dashboard
-
-The team will create one common dashboard rather than four completely separate interfaces.
-
-The dashboard should provide a common base for demonstrating the different accessibility adaptations.
-
-Possible dashboard elements include:
-
-- Navigation
-- Cards
-- Tables/data
-- Charts
-- Buttons
-- Filters
-- Status indicators
-- Important information
-- User controls
-
-The final dashboard should maintain a consistent visual language across all modules.
-
----
-
-## 10. Shared Adaptive States
-
-The final project should demonstrate how the different accessibility adaptations can work together.
-
-### Normal State
-
-Normal Color + Normal Typography + Normal Interaction + Normal Cognitive Load
-
-### Adaptive State
-
-Adaptive Color + Enhanced Typography + Assisted Interaction + Reduced Visual Noise
-
-The exact combination of adaptations may vary depending on the final design.
-
-The important goal is to clearly show **what changes and why it changes**.
-
----
-
-## 11. Shared Prototype
-
-All members will contribute to integrating their module into the final prototype.
-
-Shared prototype work includes:
-
-- Main dashboard
-- User flow
-- Adaptive states
-- Relevant interactions
-- State changes
-- Final integration
-
-Location: `06-Shared-Prototype/`
-
-The shared prototype contains:
-
-- `User-Flows/`
-- `Dashboard/`
-- `Adaptive-States/`
-
----
-
-## 12. Individual Contribution to Final Project
-
-Each member should contribute to both their own module and the shared project.
-
-### Individual Module
-
-Each member is responsible for:
-
-- Research
-- Design decisions
-- Wireframes
-- UI
-- Adaptive state
-- Module documentation
-
-### Shared Project
-
-Each member contributes to:
-
-- Shared design system
-- Common dashboard
-- Prototype integration
-- Final design consistency
-- Final presentation
-
-The final project should represent **one Chameleon system**, rather than four unrelated module designs.
-
----
-
-## 13. Ownership Summary
-
-| Area                     | Chetana   | Garima    | Harsh     | Vaibhavi  |
-|--------------------------|:---------:|:---------:|:---------:|:---------:|
-| Adaptive Color           | **Owner** | Support   | Support   | Support   |
-| Adaptive Typography      | Support   | **Owner** | Support   | Support   |
-| Adaptive Interaction     | Support   | Support   | **Owner** | Support   |
-| Cognitive Accessibility  | Support   | Support   | Support   | **Owner** |
-| Shared Design System     | ✓         | ✓        | ✓         | ✓         |
-| Shared Dashboard         | ✓         | ✓        | ✓         | ✓         |
-| Shared Prototype         | ✓         | ✓        | ✓         | ✓         |
-| Final Integration        | ✓         | ✓        | ✓         | ✓         |
-| Final Presentation       | ✓         | ✓        | ✓         | ✓         |
-
-**Owner:** Primarily responsible for planning and developing the module.
-
-**Support:** Contributes feedback, collaboration and integration where required.
-
----
-
-## 14. Final Responsibility
-
-All members are responsible for understanding the complete project.
-
-Each member should be able to explain:
-
-1. Their assigned module
-2. The problem their module addresses
-3. Their design decisions
-4. Their individual contribution
-5. How their module connects to the overall Chameleon system
-
-The team is collectively responsible for the final integrated product.
-
----
-
-## 15. Final Principle
-
-The project follows a **shared + individual** work model.
-
-**Individual Module Ownership + Shared Design & Integration = One Final Chameleon System**
-
-The purpose of this work distribution is to keep responsibilities clear while ensuring that every team member contributes to both their individual module and the final project.
+*Chameleon — one familiar interface, different adaptive responses.*
